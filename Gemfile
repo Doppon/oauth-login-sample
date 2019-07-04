@@ -39,7 +39,7 @@ gem 'bootsnap', '>= 1.1.0', require: false
 gem 'dotenv-rails'
 
 gem 'devise'
-gem 'omniauth'
+gem 'omniauth', '<= 1.9.0'
 gem 'omniauth-github'
 
 group :development, :test do
