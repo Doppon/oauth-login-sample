@@ -39,6 +39,7 @@ gem 'bootsnap', '>= 1.1.0', require: false
 gem 'dotenv-rails'
 
 gem 'devise'
+# ToDo: 指示通りのバージョン指定をしたにも関わらず警告が消えないので修正が必要 
 gem 'omniauth', '<= 1.9.0'
 gem 'omniauth-github'
 
