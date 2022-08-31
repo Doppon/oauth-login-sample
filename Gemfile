@@ -40,7 +40,7 @@ gem 'dotenv-rails'
 
 gem 'devise'
 # ToDo: 指示通りのバージョン指定をしたにも関わらず警告が消えないので修正が必要 
-gem 'omniauth', '<= 1.9.0'
+gem 'omniauth', '<= 1.10.0'
 gem 'omniauth-github'
 
 group :development, :test do
